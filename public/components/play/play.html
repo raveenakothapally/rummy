@@ -1,0 +1,90 @@
+
+<div class="container">
+    <div class="item">
+        <div class="score">
+            000
+        </div>
+        <span>
+            Sujith
+        </span>
+    </div>
+    <div class="item">
+        <div class="score">
+            000
+        </div>
+        <span>
+            Raveena
+        </span>
+    </div>
+    <div class="item">
+        <div class="score">
+            000
+        </div>
+        <span>
+            Vijith
+        </span>
+    </div>
+    <div class="item">
+        <div class="score">
+
+        </div>
+        <span>
+
+        </span>
+    </div>
+</div>
+<a id="end-round" href="#round-done-modal" class="btn-floating btn-large waves-effect waves-light green"><i class="material-icons">done_all</i></a>
+
+<table>
+    <thead>
+    <tr>
+        <th data-field="id">Round</th>
+        <th data-field="name">Sujith</th>
+        <th data-field="price">Raveena</th>
+        <th data-field="price">Vijith</th>
+    </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<!-- Modal Structure -->
+<div id="round-done-modal" class="modal">
+    <div class="modal-content">
+        <h4>Scores</h4>
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s4">
+                        <input id="textarea1" type="tel" class="validate">
+                        <label for="textarea1">Sujith</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="textarea2" type="tel" class="validate">
+                        <label for="textarea2">Raveena</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <input id="textarea3" type="tel" class="validate">
+                        <label for="textarea3">Vijith</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#play" id="round-complete-btn" class="modal-action modal-close waves-effect waves-green btn-flat">Yes</a>
+    </div>
+</div>
+
+<!-- Modal Structure -->
+<div id="new-play-modal" class="modal">
+    <div class="modal-content">
+        <h4>New Game</h4>
+        <p>Are you sure?</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#play" id="new-game-confirm" class="modal-action modal-close waves-effect waves-green btn-flat">Yes</a>
+    </div>
+</div>
+
+<a id="new-game-btn" class="btn-floating btn-large waves-effect waves-light red" href="#new-play-modal"><i class="material-icons">add</i></a>

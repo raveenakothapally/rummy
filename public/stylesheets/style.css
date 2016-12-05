@@ -1,0 +1,49 @@
+#new-game-btn {
+  position: absolute;
+  bottom: 7%;
+  left: 83%;
+}
+.container {
+  margin-top: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.container .item {
+  flex: 1 30vw;
+  margin-top: 2%;
+}
+.container .item:nth-child(even) {
+  text-align: right;
+}
+.container .item .score {
+  font-size: 3.5em;
+  display: inline;
+  margin-right: -2%;
+}
+.container .item span {
+  font-size: 1.2em;
+  color: #7c7b86;
+}
+#end-round {
+  left: 85%;
+}
+table {
+  margin-top: 5%;
+}
+table tbody {
+  height: 35vh;
+  display: inline-block;
+  overflow: auto;
+  width: 96vw;
+  position: absolute;
+}
+table tbody td,
+table tbody th {
+  display: inline-block;
+  width: 23vw;
+  padding-left: 7%;
+}
+th {
+  padding-left: 3%;
+}
